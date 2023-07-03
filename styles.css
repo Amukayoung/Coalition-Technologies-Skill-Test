@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden !important;
+}
+
+:root {
+  --primary-color: #414f6b;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0);
+  padding-left: var(--bs-gutter-x, 0);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.section-1 {
+  width: auto;
+  height: 72.5vh;
+  background: url('./images/LaBanner2.png') no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 20%;
+  transition: transform 0.5s;
+}
+
+.navbar {
+  position: absolute !important;
+  top: 1rem;
+  right: 16%;
+}
+
+.navbar-link {
+  font-size: 1.5rem;
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 0 3rem;
+  color: var(--white-color);
+  transition: transform 0.5s;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 1px solid var(--white-color);
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+.logo:hover,
+.navbar-link:hover {
+  transform: scale(1.2);
+  color: var(--white-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+.sticky-nav {
+    height: 6.7rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .logo2 {
+    position: absolute;
+    top: 1rem;
+    left: 20%;
+    transition: transform 0.5s;
+  }
+  
+  .navbar-link2 {
+    font-size: 1.5rem;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 0 3rem;
+    color: var(--primary-color);
+    transition: transform 0.5s;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid var(--primary-color);
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+  }
+  
+  .navbar2 {
+    position: absolute;
+    top: 2rem;
+    right: 16%;
+  }
+  
+  .logo2:hover,
+  .navbar-link2:hover {
+    transform: scale(1.2);
+    color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .section-2 {
+    width: 100%;
+    height: 94vh;
+    background: url('./images/Bg.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .history-text-section {
+    width: 62%;
+  }
+  
+  .history {
+    margin-top: 5rem;
+  }
+  
+  .history-text {
+    flex-direction: column;
+    width: 94%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    left: 10%;
+    margin-left: 6rem;
+  }
+  
+  .numbers {
+    left: 20%;
+  }
+  
+  .carousel-bg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: rgba(65, 79, 107, 0.85);
+    bottom: 0;
+    padding: 3rem;
+  }
+  
+  .carousel-item a {
+    cursor: default;
+  }
+  
+  .thumb-container {
+    position: relative;
+    width: 67%;
+  }
+  
+  .thumbnail {
+    margin: 0 0.3rem;
+  }
+  
+  .thumbnail img {
+    height: 80%;
+    width: 100%;
+  }
+  
+  .blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -20%;
+  }
+  
+  .blog .carousel-indicators:hover {
+    cursor: pointer;
+  }
+  
+  .blog .carousel-indicators li {
+    background: rgba(231, 231, 231, 0.3);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+  }
+  
+  .blog .carousel-indicators .active {
+    background: var(--white-color);
+  }
