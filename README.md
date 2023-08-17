@@ -13,7 +13,7 @@ Converted PSD file to a web page
 ## Live Demo
  Url: https://amukayoung.github.io/Coalition-Technologies-Skill-Test/
 
- ## Screen shot
+ ## Screen shots
 ![Screen Shot](./images/skilltest-screenshot1.png)
 ![Screen Shot](./images/skilltes-screenshot2.png)
 ![Screen Shot](./images/skilltest-screenshot3.png)
