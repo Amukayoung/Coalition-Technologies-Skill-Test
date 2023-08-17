@@ -1,7 +1,7 @@
 # Coalition-Technologies-Skill-Test
 
 ## Task
-Convert PSD file to a web page
+Converted PSD file to a web page
 
 ## Technologies
 
