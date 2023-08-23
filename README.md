@@ -10,7 +10,7 @@ Converted PSD file to a web page
 - JavaScript
 - Bootstrap
 
-## Live Demo
+## Hosted Demo
  Url: https://amukayoung.github.io/Coalition-Technologies-Skill-Test/
 
  ## Screen shots
